@@ -23,8 +23,7 @@ class MergeSort {
 
     }
 
-    void merge(
-  int[] a, int[] l, int[] r, int left, int right) {
+    void merge(int[] a, int[] l, int[] r, int left, int right) {
  
     int i = 0, j = 0, k = 0;
     while (i < left && j < right) {
